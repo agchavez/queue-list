@@ -1,0 +1,26 @@
+{
+  "name": "socket-list",
+  "version": "1.0.0",
+  "description": "socket de lista de colas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start:dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agchavez/queue-list.git"
+  },
+  "author": "agchavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agchavez/queue-list/issues"
+  },
+  "homepage": "https://github.com/agchavez/queue-list#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
